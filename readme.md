@@ -151,6 +151,8 @@ cd client\src\contracts
 rm -rf *
 # 再回到NFT-Marketplace目录下，执行
 truffle migrate --network  ycc
+
+
 # truffle会将这三个合约文件编译部署到链上，出现以下提示代表部署成功
 Deploying 'ArtMarketplace'
 --------------------------
