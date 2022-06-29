@@ -103,7 +103,7 @@ gas: 部署合约需要的gas
 我们用以太坊上的一个应用（NFT-Marketplace）为例，说明如何把它快速移植到YCC平行链上。  
 NFT-Marketplace开源地址：https://github.com/BravoNatalie/NFT-Marketplace， 实现了一个Demo性质的去中心化NFT交易市场，可以发行也可以买卖NFT。 
 
-1. 环境准备
+1. 环境准备  
 产品的客户端+服务端（运行在Win10机器上, 机器上的visual studio版本大于等于 2015） 
 区块链(YCC主链+平行链运行在linux服务器上)  
 python3  
