@@ -104,16 +104,16 @@ gas: 部署合约需要的gas
 NFT-Marketplace开源地址：https://github.com/BravoNatalie/NFT-Marketplace， 实现了一个Demo性质的去中心化NFT交易市场，可以发行也可以买卖NFT。 
 
 1. 环境准备  
-产品的客户端+服务端（运行在Win10机器上, 机器上的visual studio版本大于等于 2015） 
-区块链(YCC主链+平行链运行在linux服务器上)  
-python3  
-Git工具  
-Node  
-Yarn或npm  
-Truffle  
-metamask浏览器插件 
+- 产品的客户端+服务端（运行在Win10机器上, 机器上的visual studio版本大于等于 2015）   
+- 区块链(YCC主链+平行链运行在linux服务器上)    
+- python3   
+- Git工具   
+- Node   
+- Yarn或npm   
+- Truffle  
+- metamask浏览器插件 
 
-2. 环境部署
+2. 环境部署  
 - 通过git bash工具下载NFT市场开源代码  
 ```
 git clone https://github.com/BravoNatalie/NFT-Marketplace.git  
@@ -127,7 +127,7 @@ cd NFT-Marketplace
 yarn  
 ```
 
-- 修改truffle配置文件
+- 修改truffle配置文件  
 ```
 # 在NFT-Marketplace目录下，修改truffle-config.js文件，
 # 1. 在文件头增加const定义
@@ -142,7 +142,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
     },
 ```
 
-- 运行truffle工具，将./contracts/目录下的三个合约部署到链上
+- 运行truffle工具，将./contracts/目录下的三个合约部署到链上  
 ```
 # 修改PATH环境变量，将node_modules/.bin加到PATH中
 export PATH=$(pwd)/node_modules/.bin:$PATH
