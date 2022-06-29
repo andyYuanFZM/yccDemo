@@ -181,7 +181,7 @@ yarn start
 ```
 
 **3. 操作使用**  
--  访问前端并通过metamask登录，登录成功后自己的钱包地址会显示在右上角   
+-  访问前端(默认：localhost:3000)并通过metamask登录，登录成功后自己的钱包地址会显示在右上角   
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/market1.png)   
 - 点击[Mint your art]发行一个NFT，在弹出的metamask插件中点确认交易   
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/market2.png)   
