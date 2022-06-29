@@ -85,7 +85,7 @@ YCC平行链除了兼容以太坊虚拟机（EVM）,同时在接口上也做了�
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/remix1.png)   
 - **编译合约**：选用的编译器版本要大于等于合约中要求的版本
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/remix2.png)   
-- **metamask连接remix**：环境选择[Injected Web3] -- 弹出metamask插件，提示允不允许连接此网站 -- 选择连接， 连接成功后metemask中配置的chainID和用户账户地址都会在remix界面中显示。  
+- **metamask连接remix**：环境选择[Injected Web3] -- 弹出metamask插件，选择[确认]连接， 连接成功后metemask中配置的chainID和用户账户地址都会在remix界面中显示。  
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/remix3.png)   
 - **部署合约到YCC平行链上**：选择[deploy]按钮 -- 弹出matemask插件，提示部署合约所需的GAS费 -- 确保自己账户下燃料充足 -- 点击确认-- 成功后会在控制台打印合约部署信息  
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/remix4.png)   
