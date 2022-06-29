@@ -103,7 +103,7 @@ gas: 部署合约需要的gas
 我们用以太坊上的一个应用（NFT-Marketplace）为例，说明如何把它快速移植到YCC平行链上。  
 NFT-Marketplace开源地址：https://github.com/BravoNatalie/NFT-Marketplace， 实现了一个Demo性质的去中心化NFT交易市场，可以发行也可以买卖NFT。 
 
-1. 环境准备  
+**1. 环境准备**  
 - 产品的客户端+服务端（运行在Win10机器上, 机器上的visual studio版本大于等于 2015）   
 - 区块链(YCC主链+平行链运行在linux服务器上)    
 - python3   
@@ -113,7 +113,7 @@ NFT-Marketplace开源地址：https://github.com/BravoNatalie/NFT-Marketplace，
 - Truffle  
 - metamask浏览器插件 
 
-2. 环境部署  
+**2. 环境部署**  
 - 通过git bash工具下载NFT市场开源代码  
 ```
 git clone https://github.com/BravoNatalie/NFT-Marketplace.git  
@@ -165,20 +165,20 @@ Summary
 > Final cost:          0.03766312 ETH
 ```
 
--运行客户端和服务端
+-运行客户端和服务端  
 ```
 # 运行客户端
 cd client
 yarn
 yarn start
 
-# 运行服务端
+# 运行服务端  
 cd backend
 yarn
 yarn start
 ```
 
-3. 操作使用
+**3. 操作使用**  
 -  访问前端并通过metamask登录，登录成功后自己的钱包地址会显示在右上角   
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/market1.png)   
 - 点击[Mint your art]发行一个NFT，在弹出的metamask插件中点确认交易   
