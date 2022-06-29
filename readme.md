@@ -76,7 +76,7 @@ YCC平行链除了兼容以太坊虚拟机（EVM）,同时在接口上也做了�
 新增RPC URL:  此处改成用户自己YCC平行链的rpc链接    
 链ID: 使用YCC注册的固定值 3999    
 
-2. 账户下充一些YCC用于手续费支付（TODO: 获取YCC方式）
+2. 账户下充一些YCC用于手续费支付（TODO: 获取YCC方式待补充）
 
 3. 编译部署合约
 - **准备测试合约**：可以参考 [[ERC1155合约]](https://github.com/andyYuanFZM/btyDemo/tree/master/src/test/solidity/ERC1155ByManager.sol)     
