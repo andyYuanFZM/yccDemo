@@ -78,7 +78,7 @@ web3生态工具使用说明： [[web3生态工具使用说明]](https://github.
 JAVA-SDK开发环境部署参考链接： [[JAVA-SDK]](https://github.com/andyYuanFZM/yccDemo/blob/master/java-sdk.md)  
 
 ##### 运行JAVA Demo程序  
-- 调用 [[BlockChainTest.java]](https://github.com/andyYuanFZM/btyDemo/blob/master/src/test/java/com/chain33/cn/BlockChainTest.java)  中的createAccountYCC方法，生成地址和私钥  
+- 调用 [[BlockChainTest.java]](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/java/com/chain33/cn/BlockChainTest.java)  中的createAccountYCC方法，生成地址和私钥  
 - 修改对应子目录下的ERC1155Test文件，将上一步生成的内容，分别填充到以下几个参数中，注意私钥即资产，要隐私存放，而地址是可以公开的  
 ```  
 // 管理员地址和私钥
