@@ -1,91 +1,91 @@
-## Ò». Í¨¹ıremixºÍmetamaskÔÚYCCÆ½ĞĞÁ´ÉÏ²¿Êğµ÷ÓÃNFTºÏÔ¼  
-1.  ä¯ÀÀÆ÷°²×°metamask²å¼ş£¬´´½¨ÕË»§ºóÌí¼ÓYCCÆ½ĞĞÁ´µÄrpcÁ¬½Ó  
+## ä¸€. é€šè¿‡remixå’Œmetamaskåœ¨YCCå¹³è¡Œé“¾ä¸Šéƒ¨ç½²è°ƒç”¨NFTåˆçº¦  
+1.  æµè§ˆå™¨å®‰è£…metamaskæ’ä»¶ï¼Œåˆ›å»ºè´¦æˆ·åæ·»åŠ YCCå¹³è¡Œé“¾çš„rpcè¿æ¥  
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/metamask.png)    
-ĞÂÔöRPC URL:  ´Ë´¦¸Ä³ÉÓÃ»§×Ô¼ºYCCÆ½ĞĞÁ´µÄrpcÁ´½Ó    
-Á´ID: Ê¹ÓÃYCC×¢²áµÄ¹Ì¶¨Öµ 3999    
+æ–°å¢RPC URL:  æ­¤å¤„æ”¹æˆç”¨æˆ·è‡ªå·±YCCå¹³è¡Œé“¾çš„rpcé“¾æ¥    
+é“¾ID: ä½¿ç”¨YCCæ³¨å†Œçš„å›ºå®šå€¼ 3999    
 
-2. ÕË»§ÏÂ³äÒ»Ğ©YCCÓÃÓÚÊÖĞø·ÑÖ§¸¶£¨TODO: »ñÈ¡YCC·½Ê½£©
+2. è´¦æˆ·ä¸‹å……ä¸€äº›YCCç”¨äºæ‰‹ç»­è´¹æ”¯ä»˜ï¼ˆTODO: è·å–YCCæ–¹å¼ï¼‰
 
-3. ±àÒë²¿ÊğºÏÔ¼
-- **×¼±¸²âÊÔºÏÔ¼**£º¿ÉÒÔ²Î¿¼ [[ERC1155ºÏÔ¼]](https://github.com/andyYuanFZM/btyDemo/tree/master/src/test/solidity/ERC1155ByManager.sol)     
-- **×¼±¸ºÏÔ¼±àÒëÆ÷**£º´ò¿ªÔÚÏßremix IDE:  https://remix.ethereum.org/   
-- **ĞÂ½¨¹¤³ÌÎÄ¼ş**£ºÔÚremixµÄworkspaceÏÂ£¬ĞÂ½¨Ò»¸öERC1155.solÎÄ¼ş£¬²¢½«ÉÏÊö²Î¿¼ºÏÔ¼ÄÚÈİğ¤Ìù½øÈ¥¡£  
+3. ç¼–è¯‘éƒ¨ç½²åˆçº¦
+- **å‡†å¤‡æµ‹è¯•åˆçº¦**ï¼šå¯ä»¥å‚è€ƒ [[ERC1155åˆçº¦]](https://github.com/andyYuanFZM/btyDemo/tree/master/src/test/solidity/ERC1155ByManager.sol)     
+- **å‡†å¤‡åˆçº¦ç¼–è¯‘å™¨**ï¼šæ‰“å¼€åœ¨çº¿remix IDE:  https://remix.ethereum.org/   
+- **æ–°å»ºå·¥ç¨‹æ–‡ä»¶**ï¼šåœ¨remixçš„workspaceä¸‹ï¼Œæ–°å»ºä¸€ä¸ªERC1155.solæ–‡ä»¶ï¼Œå¹¶å°†ä¸Šè¿°å‚è€ƒåˆçº¦å†…å®¹é»è´´è¿›å»ã€‚  
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/remix1.png)   
-- **±àÒëºÏÔ¼**£ºÑ¡ÓÃµÄ±àÒëÆ÷°æ±¾Òª´óÓÚµÈÓÚºÏÔ¼ÖĞÒªÇóµÄ°æ±¾
+- **ç¼–è¯‘åˆçº¦**ï¼šé€‰ç”¨çš„ç¼–è¯‘å™¨ç‰ˆæœ¬è¦å¤§äºç­‰äºåˆçº¦ä¸­è¦æ±‚çš„ç‰ˆæœ¬
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/remix2.png)   
-- **metamaskÁ¬½Óremix**£º»·¾³Ñ¡Ôñ[Injected Web3] -- µ¯³ömetamask²å¼ş£¬ÌáÊ¾ÔÊ²»ÔÊĞíÁ¬½Ó´ËÍøÕ¾ -- Ñ¡ÔñÁ¬½Ó£¬ Á¬½Ó³É¹¦ºómetemaskÖĞÅäÖÃµÄchainIDºÍÓÃ»§ÕË»§µØÖ·¶¼»áÔÚremix½çÃæÖĞÏÔÊ¾¡£  
+- **metamaskè¿æ¥remix**ï¼šç¯å¢ƒé€‰æ‹©[Injected Web3] -- å¼¹å‡ºmetamaskæ’ä»¶ï¼Œæç¤ºå…ä¸å…è®¸è¿æ¥æ­¤ç½‘ç«™ -- é€‰æ‹©è¿æ¥ï¼Œ è¿æ¥æˆåŠŸåmetemaskä¸­é…ç½®çš„chainIDå’Œç”¨æˆ·è´¦æˆ·åœ°å€éƒ½ä¼šåœ¨remixç•Œé¢ä¸­æ˜¾ç¤ºã€‚  
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/remix3.png)   
-- **²¿ÊğºÏÔ¼µ½YCCÆ½ĞĞÁ´ÉÏ**£ºÑ¡Ôñ[deploy]°´Å¥ -- µ¯³ömatemask²å¼ş£¬ÌáÊ¾²¿ÊğºÏÔ¼ËùĞèµÄGAS·Ñ -- È·±£×Ô¼ºÕË»§ÏÂÈ¼ÁÏ³ä×ã -- µã»÷È·ÈÏ-- ³É¹¦ºó»áÔÚ¿ØÖÆÌ¨´òÓ¡ºÏÔ¼²¿ÊğĞÅÏ¢  
+- **éƒ¨ç½²åˆçº¦åˆ°YCCå¹³è¡Œé“¾ä¸Š**ï¼šé€‰æ‹©[deploy]æŒ‰é’® -- å¼¹å‡ºmatemaskæ’ä»¶ï¼Œæç¤ºéƒ¨ç½²åˆçº¦æ‰€éœ€çš„GASè´¹ -- ç¡®ä¿è‡ªå·±è´¦æˆ·ä¸‹ç‡ƒæ–™å……è¶³ -- ç‚¹å‡»ç¡®è®¤-- æˆåŠŸåä¼šåœ¨æ§åˆ¶å°æ‰“å°åˆçº¦éƒ¨ç½²ä¿¡æ¯  
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/remix4.png)   
-×ó²àºì¿òÖĞDeployed Contracts:  ²¿ÊğºÃµÄºÏÔ¼µØÖ·  
-status: ºÏÔ¼²¿ÊğµÄ½á¹û  
-transaction hash: ºÏÔ¼²¿Êğ³É¹¦·µ»ØµÄhashÖµ  
-from: ²¿ÊğÈËµÄµØÖ·  
-gas: ²¿ÊğºÏÔ¼ĞèÒªµÄgas  
-- **µ÷ÓÃºÏÔ¼**£ºµã»÷[Deployed Contracts]±ßÉÏÏÂÀ­¼ıÍ·£¬ÔÙµã»÷[mint]º¯Êı±ßÉÏµÄÏÂÀ­¼ıÍ·£¬ÊäÈëmintº¯ÊıËùĞèµÄ²ÎÊı(×¢ÒâÊı¾İÀàĞÍÒªºÍsolidityºÏÔ¼ÖĞ¶¨ÒåµÄ±£³ÖÒ»ÖÂ)   
+å·¦ä¾§çº¢æ¡†ä¸­Deployed Contracts:  éƒ¨ç½²å¥½çš„åˆçº¦åœ°å€  
+status: åˆçº¦éƒ¨ç½²çš„ç»“æœ  
+transaction hash: åˆçº¦éƒ¨ç½²æˆåŠŸè¿”å›çš„hashå€¼  
+from: éƒ¨ç½²äººçš„åœ°å€  
+gas: éƒ¨ç½²åˆçº¦éœ€è¦çš„gas  
+- **è°ƒç”¨åˆçº¦**ï¼šç‚¹å‡»[Deployed Contracts]è¾¹ä¸Šä¸‹æ‹‰ç®­å¤´ï¼Œå†ç‚¹å‡»[mint]å‡½æ•°è¾¹ä¸Šçš„ä¸‹æ‹‰ç®­å¤´ï¼Œè¾“å…¥mintå‡½æ•°æ‰€éœ€çš„å‚æ•°(æ³¨æ„æ•°æ®ç±»å‹è¦å’Œsolidityåˆçº¦ä¸­å®šä¹‰çš„ä¿æŒä¸€è‡´)   
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/remix5.png)   
-- **²éÑ¯½á¹û**£ºµã»÷[Deployed Contracts]±ßÉÏÏÂÀ­¼ıÍ·£¬ÔÙµã»÷[balanceof]º¯Êı±ßÉÏµÄÏÂÀ­¼ıÍ·£¬ÊäÈëbalanceofº¯ÊıËùĞèµÄ²ÎÊı,µã»÷[call]°´Å¥²éÑ¯  
+- **æŸ¥è¯¢ç»“æœ**ï¼šç‚¹å‡»[Deployed Contracts]è¾¹ä¸Šä¸‹æ‹‰ç®­å¤´ï¼Œå†ç‚¹å‡»[balanceof]å‡½æ•°è¾¹ä¸Šçš„ä¸‹æ‹‰ç®­å¤´ï¼Œè¾“å…¥balanceofå‡½æ•°æ‰€éœ€çš„å‚æ•°,ç‚¹å‡»[call]æŒ‰é’®æŸ¥è¯¢  
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/remix6.png)   
 
-##¶ş. Í¨¹ıtruffleºÍmetamaskÔÚYCCÆ½ĞĞÁ´ÉÏ²¿ÊğÓ¦ÓÃ  
-ÎÒÃÇÓÃÒÔÌ«·»ÉÏµÄÒ»¸öÓ¦ÓÃ£¨NFT-Marketplace£©ÎªÀı£¬ËµÃ÷ÈçºÎ°ÑËü¿ìËÙÒÆÖ²µ½YCCÆ½ĞĞÁ´ÉÏ¡£  
-NFT-Marketplace¿ªÔ´µØÖ·£ºhttps://github.com/BravoNatalie/NFT-Marketplace£¬ ÊµÏÖÁËÒ»¸öDemoĞÔÖÊµÄÈ¥ÖĞĞÄ»¯NFT½»Ò×ÊĞ³¡£¬¿ÉÒÔ·¢ĞĞÒ²¿ÉÒÔÂòÂôNFT¡£ 
+##äºŒ. é€šè¿‡truffleå’Œmetamaskåœ¨YCCå¹³è¡Œé“¾ä¸Šéƒ¨ç½²åº”ç”¨  
+æˆ‘ä»¬ç”¨ä»¥å¤ªåŠä¸Šçš„ä¸€ä¸ªåº”ç”¨ï¼ˆNFT-Marketplaceï¼‰ä¸ºä¾‹ï¼Œè¯´æ˜å¦‚ä½•æŠŠå®ƒå¿«é€Ÿç§»æ¤åˆ°YCCå¹³è¡Œé“¾ä¸Šã€‚  
+NFT-Marketplaceå¼€æºåœ°å€ï¼šhttps://github.com/BravoNatalie/NFT-Marketplaceï¼Œ å®ç°äº†ä¸€ä¸ªDemoæ€§è´¨çš„å»ä¸­å¿ƒåŒ–NFTäº¤æ˜“å¸‚åœºï¼Œå¯ä»¥å‘è¡Œä¹Ÿå¯ä»¥ä¹°å–NFTã€‚ 
 
-1. »·¾³×¼±¸
-²úÆ·µÄ¿Í»§¶Ë+·şÎñ¶Ë£¨ÔËĞĞÔÚWin10»úÆ÷ÉÏ, »úÆ÷ÉÏµÄvisual studio°æ±¾´óÓÚµÈÓÚ 2015£© 
-Çø¿éÁ´(YCCÖ÷Á´+Æ½ĞĞÁ´ÔËĞĞÔÚlinux·şÎñÆ÷ÉÏ)  
+1. ç¯å¢ƒå‡†å¤‡
+äº§å“çš„å®¢æˆ·ç«¯+æœåŠ¡ç«¯ï¼ˆè¿è¡Œåœ¨Win10æœºå™¨ä¸Š, æœºå™¨ä¸Šçš„visual studioç‰ˆæœ¬å¤§äºç­‰äº 2015ï¼‰ 
+åŒºå—é“¾(YCCä¸»é“¾+å¹³è¡Œé“¾è¿è¡Œåœ¨linuxæœåŠ¡å™¨ä¸Š)  
 python3  
-Git¹¤¾ß  
+Gitå·¥å…·  
 Node  
-Yarn»ònpm  
+Yarnæˆ–npm  
 Truffle  
-metamaskä¯ÀÀÆ÷²å¼ş 
+metamaskæµè§ˆå™¨æ’ä»¶ 
 
-2. »·¾³²¿Êğ
-- Í¨¹ıgit bash¹¤¾ßÏÂÔØNFTÊĞ³¡¿ªÔ´´úÂë  
+2. ç¯å¢ƒéƒ¨ç½²
+- é€šè¿‡git bashå·¥å…·ä¸‹è½½NFTå¸‚åœºå¼€æºä»£ç   
 ```
 git clone https://github.com/BravoNatalie/NFT-Marketplace.git  
 ```
 
-- Í¨¹ıyarnÃüÁî°²×°ÒÀÀµ£¨±£Ö¤ÍøÂçÃ»ÓĞÏŞÖÆ£¬Èç¹ûÓĞĞ©ÒÀÀµÏÂÔØÊ§°Ü£¬¿ÉÄÜĞèÒª¿ÆÑ§ÉÏÍø£© 
+- é€šè¿‡yarnå‘½ä»¤å®‰è£…ä¾èµ–ï¼ˆä¿è¯ç½‘ç»œæ²¡æœ‰é™åˆ¶ï¼Œå¦‚æœæœ‰äº›ä¾èµ–ä¸‹è½½å¤±è´¥ï¼Œå¯èƒ½éœ€è¦ç§‘å­¦ä¸Šç½‘ï¼‰ 
 ```
-# ½øÈëÄ¿Â¼
+# è¿›å…¥ç›®å½•
 cd NFT-Marketplace  
-# Ö´ĞĞyarnÃüÁî
+# æ‰§è¡Œyarnå‘½ä»¤
 yarn  
 ```
 
-- ĞŞ¸ÄtruffleÅäÖÃÎÄ¼ş
+- ä¿®æ”¹truffleé…ç½®æ–‡ä»¶
 ```
-# ÔÚNFT-MarketplaceÄ¿Â¼ÏÂ£¬ĞŞ¸Ätruffle-config.jsÎÄ¼ş£¬
-# 1. ÔÚÎÄ¼şÍ·Ôö¼Óconst¶¨Òå
+# åœ¨NFT-Marketplaceç›®å½•ä¸‹ï¼Œä¿®æ”¹truffle-config.jsæ–‡ä»¶ï¼Œ
+# 1. åœ¨æ–‡ä»¶å¤´å¢åŠ constå®šä¹‰
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-# 2. Ôö¼ÓÒÔÏÂYCCÆ½ĞĞÁ´ÍøÂçµÄÅäÖÃ
+# 2. å¢åŠ ä»¥ä¸‹YCCå¹³è¡Œé“¾ç½‘ç»œçš„é…ç½®
     ycc: {
-      network_id: "3999",       // YCC  network_id£º ¶ÔÓ¦YCCµÄchainid£¬¹Ì¶¨ÌîĞ´3999
-      from: "0xc05109180ac5298e3a9b7d7e70abf98ffb986d22",  // ÓÃ»§µØÖ·£¬ĞèÒª±£Ö¤µØÖ·ÏÂÓĞÈ¼ÁÏ
+      network_id: "3999",       // YCC  network_idï¼š å¯¹åº”YCCçš„chainidï¼Œå›ºå®šå¡«å†™3999
+      from: "0xc05109180ac5298e3a9b7d7e70abf98ffb986d22",  // ç”¨æˆ·åœ°å€ï¼Œéœ€è¦ä¿è¯åœ°å€ä¸‹æœ‰ç‡ƒæ–™
       provider: function() {
-        return new HDWalletProvider(mnemonic , "http://121.52.224.92:8546/"); // mnemonic£ºÇ®°üÖú¼Ç´Ê; url: YCCÆ½ĞĞÁ´¶ÔÓ¦µÄrpcµØÖ·
+        return new HDWalletProvider(mnemonic , "http://121.52.224.92:8546/"); // mnemonicï¼šé’±åŒ…åŠ©è®°è¯; url: YCCå¹³è¡Œé“¾å¯¹åº”çš„rpcåœ°å€
       }
     },
 ```
 
-- ÔËĞĞtruffle¹¤¾ß£¬½«./contracts/Ä¿Â¼ÏÂµÄÈı¸öºÏÔ¼²¿Êğµ½Á´ÉÏ
+- è¿è¡Œtruffleå·¥å…·ï¼Œå°†./contracts/ç›®å½•ä¸‹çš„ä¸‰ä¸ªåˆçº¦éƒ¨ç½²åˆ°é“¾ä¸Š
 ```
-# ĞŞ¸ÄPATH»·¾³±äÁ¿£¬½«node_modules/.bin¼Óµ½PATHÖĞ
+# ä¿®æ”¹PATHç¯å¢ƒå˜é‡ï¼Œå°†node_modules/.binåŠ åˆ°PATHä¸­
 export PATH=$(pwd)/node_modules/.bin:$PATH
-# É¾³ıÖ®Ç°ÒÑ¾­±àÒëºÃµÄÎÄ¼ş
+# åˆ é™¤ä¹‹å‰å·²ç»ç¼–è¯‘å¥½çš„æ–‡ä»¶
 cd client\src\contracts
 rm -rf *
-# ÔÙ»Øµ½NFT-MarketplaceÄ¿Â¼ÏÂ£¬Ö´ĞĞ
+# å†å›åˆ°NFT-Marketplaceç›®å½•ä¸‹ï¼Œæ‰§è¡Œ
 truffle migrate --network  ycc
-# truffle»á½«ÕâÈı¸öºÏÔ¼ÎÄ¼ş±àÒë²¿Êğµ½Á´ÉÏ£¬³öÏÖÒÔÏÂÌáÊ¾´ú±í²¿Êğ³É¹¦
+# truffleä¼šå°†è¿™ä¸‰ä¸ªåˆçº¦æ–‡ä»¶ç¼–è¯‘éƒ¨ç½²åˆ°é“¾ä¸Šï¼Œå‡ºç°ä»¥ä¸‹æç¤ºä»£è¡¨éƒ¨ç½²æˆåŠŸ
 Deploying 'ArtMarketplace'
 --------------------------
 > transaction hash:    0xa1893aa3776589e2aceb1b9ed1a3355778d732dfd77c8593b1a7f2b7452feea5
 > contract address:    0x4eB62CdCC3767937108cF88a41BDc9e6DE43Bf27
 > block number:        424792
->......Ê¡ÂÔĞÅÏ¢
+>......çœç•¥ä¿¡æ¯
 
 Summary
 =======
@@ -93,27 +93,27 @@ Summary
 > Final cost:          0.03766312 ETH
 ```
 
--ÔËĞĞ¿Í»§¶ËºÍ·şÎñ¶Ë
+-è¿è¡Œå®¢æˆ·ç«¯å’ŒæœåŠ¡ç«¯
 ```
-# ÔËĞĞ¿Í»§¶Ë
+# è¿è¡Œå®¢æˆ·ç«¯
 cd client
 yarn
 yarn start
 
-# ÔËĞĞ·şÎñ¶Ë
+# è¿è¡ŒæœåŠ¡ç«¯
 cd backend
 yarn
 yarn start
 ```
 
-3. ²Ù×÷Ê¹ÓÃ
--  ·ÃÎÊÇ°¶Ë²¢Í¨¹ımetamaskµÇÂ¼£¬µÇÂ¼³É¹¦ºó×Ô¼ºµÄÇ®°üµØÖ·»áÏÔÊ¾ÔÚÓÒÉÏ½Ç   
+3. æ“ä½œä½¿ç”¨
+-  è®¿é—®å‰ç«¯å¹¶é€šè¿‡metamaskç™»å½•ï¼Œç™»å½•æˆåŠŸåè‡ªå·±çš„é’±åŒ…åœ°å€ä¼šæ˜¾ç¤ºåœ¨å³ä¸Šè§’   
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/market1.png)   
-- µã»÷[Mint your art]·¢ĞĞÒ»¸öNFT£¬ÔÚµ¯³öµÄmetamask²å¼şÖĞµãÈ·ÈÏ½»Ò×   
+- ç‚¹å‡»[Mint your art]å‘è¡Œä¸€ä¸ªNFTï¼Œåœ¨å¼¹å‡ºçš„metamaskæ’ä»¶ä¸­ç‚¹ç¡®è®¤äº¤æ˜“   
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/market2.png)   
-- ·¢ĞĞ³É¹¦ºó£¬NFTÍ¼Æ¬»áÔÚÊ×Ò³ÏÔÊ¾£¬µãÏêÇé£¬ÔÙµã[sell]°´Å¥£¬¾Í¿É½«¸ÃNFTÉÏ¼ÜÏúÊÛ¡£  
+- å‘è¡ŒæˆåŠŸåï¼ŒNFTå›¾ç‰‡ä¼šåœ¨é¦–é¡µæ˜¾ç¤ºï¼Œç‚¹è¯¦æƒ…ï¼Œå†ç‚¹[sell]æŒ‰é’®ï¼Œå°±å¯å°†è¯¥NFTä¸Šæ¶é”€å”®ã€‚  
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/market3.png)   
-- ÆäËüÓÃ»§ÔÚ½çÃæÄÜ¿´µ½ÉÏ¼ÜµÄNFT£¬¿É½øĞĞ¹ºÂò  
+- å…¶å®ƒç”¨æˆ·åœ¨ç•Œé¢èƒ½çœ‹åˆ°ä¸Šæ¶çš„NFTï¼Œå¯è¿›è¡Œè´­ä¹°  
 ![Image text](https://github.com/andyYuanFZM/yccDemo/blob/master/src/test/resources/market4.png)   
 
-**±¸×¢£ºÒÔÌ«·»µÄ¾«¶ÈÊÇ10µÄ18´Î·½£¬YCCµÄ¾«¶ÈÊÇ10µÄ8´Î·½£¬¿ª·¢Ê±Òª×¢Òâ¾«¶ÈµÄ×ª»»£¬ ´¦ÀíÏ¸½Ú´ı²¹³ä**
+**å¤‡æ³¨ï¼šä»¥å¤ªåŠçš„ç²¾åº¦æ˜¯10çš„18æ¬¡æ–¹ï¼ŒYCCçš„ç²¾åº¦æ˜¯10çš„8æ¬¡æ–¹ï¼Œå¼€å‘æ—¶è¦æ³¨æ„ç²¾åº¦çš„è½¬æ¢ï¼Œ å¤„ç†ç»†èŠ‚å¾…è¡¥å……**
