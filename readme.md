@@ -107,6 +107,9 @@ String paraName = "user.p.mbaas.";
 #### GO-SDK  
 https://github.com/33cn/chain33-sdk-go  
 
+#### JSONRPC接口方式  
+https://github.com/caopingcp/chain33-sdk-go/blob/sdk_doc/doc/jsonrpc%E6%95%B0%E6%8D%AE%E4%B8%8A%E9%93%BE.md   
+
 ## 应用和YCC平行链对接注意事项   
 由于YCC主链涉及燃料费,同时YCC主链平均每1-3秒一个确认的特性,可能会存在交易的失败,主要有以下两大类情况：  
 1. 交易上链了，但交易执行失败（有返回交易hash）：   这类交易通过了mempool（交易缓存池）的合法性检查，但是在合约执行过程中失败了（ 比如转移了错误数量的NFT）。
