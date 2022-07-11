@@ -34,7 +34,7 @@
 | 5   | ERC1155| 运行在EVM中，也是服务于非同质化代币(NFT),相比于ERC721它同时还支持在一个合约中存储多个数字资产，支持一次性批量发行多个不同类型的的数字资产，支持在一次转账过程中转多个不同类型的数字资产。|
 | 6   | 交易组| 把两笔及以上的交易放在一个组里一次性发送。|
 | 7   | 代扣手续费| 将代扣交易和正常用户的交易打包进一个交易组中，代扣交易使用代扣地址签名，用于主链上手续费扣除。（适用于能过java-sdk和go-sdk对接的方式，不适用于web3.js对接方式）|
-| 8   | SDK| 封装了同区块链交互的接口和区块链通用方法（包括：公私钥生成，签名，交易构造等）, 支持java-sdk, go-sdk, web3.js等 |
+| 8   | SDK| 封装了同区块链交互的接口和区块链通用方法（包括：公私钥生成，签名，交易构造等）, 支持java-sdk, go-sdk, web3.js以及jsonrpc接口等 |
 
 ### 背景介绍
 YCC公链和平行链都是基于Chain33区块链开发框架开发出来的，主链和平行链的的区别就是加载了不同的共识机制插件。      
@@ -68,7 +68,7 @@ Solidity语言更多信息, 请参阅  [[Solidity中文官方文档]](https://le
 合约的基本介绍 [[NFT合约说明]](https://github.com/andyYuanFZM/yccDemo/blob/master/NFT合约说明.md)   
 
 ### 合约部署调用     
-根据应用层开发语言的不同，YCC平行链提供了多语言的SDK， 支持web3.js， java-sdk, go-sdk等方式接入区块链，用户根据实际的需求选择SDK  
+根据应用层开发语言的不同，YCC平行链提供了多语言的SDK， 支持web3.js， java-sdk, go-sdk以及jsonrpc等方式接入区块链，用户根据实际的需求选择SDK  
 #### web3.js 
 YCC平行链除了兼容以太坊虚拟机（EVM）,同时在接口上也做了适配， 完全兼容web3.js，小狐狸插件（metamask），truffle, remix等以太坊生态工具。  
 web3生态工具使用说明： [[web3生态工具使用说明]](https://github.com/andyYuanFZM/yccDemo/blob/master/web3-sdk.md)      
