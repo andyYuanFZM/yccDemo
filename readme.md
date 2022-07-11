@@ -108,7 +108,7 @@ String paraName = "user.p.mbaas.";
 https://github.com/33cn/chain33-sdk-go  
 
 #### JSONRPC接口方式  
-https://github.com/caopingcp/chain33-sdk-go/blob/sdk_doc/doc/jsonrpc%E6%95%B0%E6%8D%AE%E4%B8%8A%E9%93%BE.md   
+https://github.com/33cn/chain33-sdk-go/blob/master/doc/jsonrpc%E6%95%B0%E6%8D%AE%E4%B8%8A%E9%93%BE.md  
 
 ## 应用和YCC平行链对接注意事项   
 由于YCC主链涉及燃料费,同时YCC主链平均每1-3秒一个确认的特性,可能会存在交易的失败,主要有以下两大类情况：  
