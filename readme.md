@@ -105,7 +105,7 @@ String paraName = "user.p.mbaas.";
 - 运行测试程序  
 
 #### GO-SDK  
-待补充
+https://github.com/33cn/chain33-sdk-go  
 
 ## 应用和YCC平行链对接注意事项   
 由于YCC主链涉及燃料费,同时YCC主链平均每1-3秒一个确认的特性,可能会存在交易的失败,主要有以下两大类情况：  
