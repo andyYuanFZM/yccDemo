@@ -105,7 +105,7 @@ String paraName = "user.p.mbaas.";
 - 运行测试程序  
 
 #### GO-SDK  
-https://github.com/33cn/chain33-sdk-go  
+https://github.com/andyYuanFZM/go-sdk-demo  
 
 #### JSONRPC接口方式  
 https://github.com/33cn/chain33-sdk-go/blob/master/doc/jsonrpc%E6%95%B0%E6%8D%AE%E4%B8%8A%E9%93%BE.md  
